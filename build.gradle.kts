@@ -54,6 +54,7 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "compose-test-app"
+            description = "Just testing out some Compose Desktop"
         }
     }
 }
