@@ -2,9 +2,21 @@ import org.jetbrains.compose.compose
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+//buildscript {
+//    repositories {
+//        google()
+//        jcenter()
+//        maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+//    }
+//
+//    dependencies {
+//        classpath("org.jetbrains.compose:compose-gradle-plugin:0.2.0-build132")
+//    }
+//}
+
 plugins {
-    kotlin("jvm") version "1.4.0"
-    id("org.jetbrains.compose") version "0.1.0-m1-build62"
+    kotlin("jvm") version "1.4.20"
+    id("org.jetbrains.compose") version "0.2.0-build132"
 }
 
 group = "me.alex"
